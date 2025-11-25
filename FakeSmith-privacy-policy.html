@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FakeSmith Test Data Generator - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #1a1a1a;
+            font-size: 2em;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #4a90e2;
+            padding-bottom: 10px;
+        }
+        
+        .last-updated {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        h2:first-of-type {
+            border-top: none;
+            padding-top: 0;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+        
+        table th,
+        table td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        
+        table th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        
+        .contact-info ul {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.5em;
+            }
+            
+            h2 {
+                font-size: 1.3em;
+            }
+            
+            table {
+                font-size: 0.85em;
+            }
+            
+            table th,
+            table td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FakeSmith Test Data Generator Privacy Policy</h1>
+        <p class="last-updated">Last Updated: November 25, 2025</p>
+        
+        <p>This policy explains how the FakeSmith Chrome extension (hereinafter referred to as "this tool") handles and protects user data. By installing and using this tool, you agree to the following terms.</p>
+        
+        <h2>1. Product Scope</h2>
+        <p>This tool covers the following features:</p>
+        <ul>
+            <li>Default data generators and custom data generators</li>
+            <li>Data Exporter and Data Encoder (encryption/decryption converter)</li>
+            <li>Quick Paste Notes and Sidepanel</li>
+            <li>Popup / Options / Sidepanel UI and right-click menu functionality</li>
+        </ul>
+        
+        <h2>2. Data Collection and Transmission</h2>
+        <ul>
+            <li><strong>No personal data is collected, transmitted, or stored on remote servers</strong>. All data is processed locally in the browser.</li>
+            <li>Content entered by users in generators or quick paste notes is only stored in <code>chrome.storage.local</code> or browser memory.</li>
+            <li>This tool does not require account login and does not collect cookies, analyze fingerprints, or track behavior.</li>
+        </ul>
+        
+        <h2>3. Permission Usage</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Permission</th>
+                    <th>Purpose</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>storage</code></td>
+                    <td>Store default/custom generator settings, quick paste notes, preferences, etc.</td>
+                    <td>Only uses <code>chrome.storage.local</code></td>
+                </tr>
+                <tr>
+                    <td><code>contextMenus</code></td>
+                    <td>Provide quick paste menu in web page input fields</td>
+                    <td>No background data transmission</td>
+                </tr>
+                <tr>
+                    <td><code>sidePanel</code></td>
+                    <td>Display sidebar tools and sync with storage</td>
+                    <td>Only active when user opens it</td>
+                </tr>
+                <tr>
+                    <td><code>scripting</code> (if required by Manifest)</td>
+                    <td>Inject necessary scripts when needed</td>
+                    <td>Limited to functional scripts only</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>4. Third-Party Services</h2>
+        <ul>
+            <li>This tool does not integrate any third-party tracking or analytics services.</li>
+            <li>If users click reference links provided in settings (such as libphonenumber, MOE character table, Buy Me a Coffee), the browser will directly visit those external websites, and their privacy policies are the responsibility of those websites.</li>
+        </ul>
+        
+        <h2>5. User Data Control</h2>
+        <ul>
+            <li>All generators, history records, preferences, and quick paste notes can be cleared at once via Settings → Reset.</li>
+            <li>Individual data can also be manually deleted (e.g., quick paste notes, generators, export records).</li>
+            <li>Uninstalling the extension will remove all locally stored data.</li>
+        </ul>
+        
+        <h2>6. Security Measures</h2>
+        <ul>
+            <li>The codebase has undergone static analysis and manual security review to ensure data protection and prevent vulnerabilities.</li>
+            <li>Important operations (such as leaving unsaved edits) provide prompts to prevent accidental data loss.</li>
+            <li>This tool does not perform network transmission, reducing the risk of data leakage.</li>
+        </ul>
+        
+        <h2>7. User Responsibility</h2>
+        <ul>
+            <li>Generated or stored data is for testing purposes only. If it contains personal information or sensitive data, please comply with relevant laws and company regulations.</li>
+            <li>If importing third-party data or scripts, please verify their security first.</li>
+        </ul>
+        
+        <h2>8. Policy Updates</h2>
+        <p>If features or authorization scope change in the future, this policy will be updated accordingly and announced in version release notes. We recommend checking the latest version periodically.</p>
+        
+        <h2>9. Contact Information</h2>
+        <div class="contact-info">
+            <p>If you have any questions or suggestions regarding this policy, please contact us through:</p>
+            <ul>
+                <li>Bento: <a href="https://bento.me/williamsliu" target="_blank" rel="noopener noreferrer">https://bento.me/williamsliu</a></li>
+                <li>Threads: <a href="https://www.threads.com/@twilliamsliu" target="_blank" rel="noopener noreferrer">https://www.threads.com/@twilliamsliu</a></li>
+                <li>Buy Me a Coffee: <a href="https://buymeacoffee.com/twilliamslp" target="_blank" rel="noopener noreferrer">https://buymeacoffee.com/twilliamslp</a></li>
+            </ul>
+        </div>
+        
+        <p><strong>Thank you for using FakeSmith. Your data security is our top priority.</strong></p>
+        
+        <div class="footer">
+            <p>FakeSmith - Test Data Generator</p>
+            <p>© 2025 WilliamsLiu. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+
