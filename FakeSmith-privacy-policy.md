@@ -56,7 +56,6 @@ If features or authorization scope change in the future, this policy will be upd
 ## 9. Contact Information
 
 If you have any questions or suggestions regarding this policy, please contact us through:
-- Bento: https://bento.me/williamsliu
 - Threads: https://www.threads.com/@twilliamsliu
 - Buy Me a Coffee: https://buymeacoffee.com/twilliamslp
 
